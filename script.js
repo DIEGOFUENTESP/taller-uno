@@ -1,7 +1,6 @@
 function aplicarEstilos() {
     var styleElement = document.getElementById('estilos-css');
   
-    // Código CSS a aplicar
     var cssCode = `
     * {
 	box-sizing: border-box;
@@ -127,9 +126,8 @@ input {
 	width: 40px;
 }
   
-    `;
-  
-    // Asignar el código CSS al elemento de estilo
+    `; 
+    
     styleElement.innerHTML = cssCode;
   }
   
